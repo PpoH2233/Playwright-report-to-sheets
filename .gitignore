@@ -1,6 +1,5 @@
 # Credentials and environment variables
 credentials.json
-test-results.json
 .env
 config.json
 secret.json
@@ -31,3 +30,6 @@ logs/
 # Operating System files
 .DS_Store
 Thumbs.db
+
+#test file
+./test-results.json
