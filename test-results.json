@@ -1,7 +1,7 @@
 {
   "config": {
-    "configFile": "/home/ppoh/Desktop/PlayGround/Home/Browser-Automation/PlayWright/playwright.config.js",
-    "rootDir": "/home/ppoh/Desktop/PlayGround/Home/Browser-Automation/PlayWright/src/tests",
+    "configFile": "/home/ppoh/Desktop/PlayGround/Home/Browser-Automation/Github-Playwright/playwright.config.js",
+    "rootDir": "/home/ppoh/Desktop/PlayGround/Home/Browser-Automation/Github-Playwright/src/tests",
     "forbidOnly": false,
     "fullyParallel": true,
     "globalSetup": null,
@@ -38,7 +38,7 @@
     "quiet": false,
     "projects": [
       {
-        "outputDir": "/home/ppoh/Desktop/PlayGround/Home/Browser-Automation/PlayWright/test-results",
+        "outputDir": "/home/ppoh/Desktop/PlayGround/Home/Browser-Automation/Github-Playwright/test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -46,7 +46,7 @@
         },
         "id": "firefox",
         "name": "firefox",
-        "testDir": "/home/ppoh/Desktop/PlayGround/Home/Browser-Automation/PlayWright/src/tests",
+        "testDir": "/home/ppoh/Desktop/PlayGround/Home/Browser-Automation/Github-Playwright/src/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -78,7 +78,7 @@
               "annotations": [
                 {
                   "type": "testId",
-                  "description": "TC-1"  
+                  "description": "TC-1"
                 }
               ],
               "expectedStatus": "passed",
@@ -89,12 +89,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2354,
+                  "duration": 2450,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-06-10T18:39:22.790Z",
+                  "startTime": "2025-06-10T19:51:04.585Z",
                   "annotations": [
                     {
                       "type": "testId",
@@ -133,12 +133,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 2156,
+                  "duration": 2892,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-06-10T18:39:22.799Z",
+                  "startTime": "2025-06-10T19:51:04.601Z",
                   "annotations": [
                     {
                       "type": "testId",
@@ -177,12 +177,12 @@
                   "workerIndex": 2,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 2603,
+                  "duration": 2783,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-06-10T18:39:22.814Z",
+                  "startTime": "2025-06-10T19:51:04.616Z",
                   "annotations": [
                     {
                       "type": "testId",
@@ -221,12 +221,12 @@
                   "workerIndex": 3,
                   "parallelIndex": 3,
                   "status": "passed",
-                  "duration": 2760,
+                  "duration": 2820,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-06-10T18:39:22.878Z",
+                  "startTime": "2025-06-10T19:51:04.586Z",
                   "annotations": [
                     {
                       "type": "testId",
@@ -265,12 +265,12 @@
                   "workerIndex": 4,
                   "parallelIndex": 4,
                   "status": "passed",
-                  "duration": 8036,
+                  "duration": 7930,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-06-10T18:39:22.852Z",
+                  "startTime": "2025-06-10T19:51:04.637Z",
                   "annotations": [
                     {
                       "type": "testId",
@@ -309,12 +309,12 @@
                   "workerIndex": 5,
                   "parallelIndex": 5,
                   "status": "passed",
-                  "duration": 2345,
+                  "duration": 2558,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-06-10T18:39:22.870Z",
+                  "startTime": "2025-06-10T19:51:04.659Z",
                   "annotations": [
                     {
                       "type": "testId",
@@ -337,8 +337,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-06-10T18:39:21.849Z",
-    "duration": 12614.41,
+    "startTime": "2025-06-10T19:51:03.514Z",
+    "duration": 10762.515000000001,
     "expected": 6,
     "skipped": 0,
     "unexpected": 0,
