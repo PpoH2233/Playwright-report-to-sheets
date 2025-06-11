@@ -1,16 +1,20 @@
-
 {
-    "TC-1" : "I9",
-    "NameTC-1" : "Input fields should display as the data that was filled",
-    "TC-2" : "I10",
-    "NameTC-2" : "Should show an error message if log in without a username",
-    "TC-3" : "I11",
-    "NameTC-3" : "Should show an error message if log in without a password",
-    "TC-4" : "I12",
-    "NameTC-4" : "Should show an error message if log in with both fields blank",
-    "TC-5" : "I13",
-    "NameTC-5" : "Should logged in successfully with valid credentials",
-    "TC-6" : "I14",
-    "NameTC-6" : "Should logged in fails with an error message when using invalid credentials"
-
+    "TC-1": {
+        "cell": "I9"
+    },
+    "TC-2": {
+        "cell": "I10"
+    },
+    "TC-3": {
+        "cell": "I11"
+    },
+    "TC-4": {
+        "cell": "I12"
+    },
+    "TC-5": {
+        "cell": "I13"
+    },
+    "TC-6": {
+        "cell": "I14"
+    }
 }

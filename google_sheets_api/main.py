@@ -54,7 +54,7 @@ try:
             for test in spec.get('tests', []):
                 codeTCList = test.get('annotations')
                 codeTC = codeTCList[0]['description'] if codeTCList else None
-                cellSheets = cell_data[codeTC]
+                cellSheets = cell_data[codeTC]['cell']
                 col, row = mapCell(cellSheets)
                 
                 resultsList = test.get('results')
