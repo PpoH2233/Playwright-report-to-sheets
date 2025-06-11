@@ -11,13 +11,15 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 6
+      "actualWorkers": 1
     },
     "preserveOutput": "always",
     "reporter": [
       [
         "html",
-        null
+        {
+          "open": "never"
+        }
       ],
       [
         "list",
@@ -42,7 +44,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 6
+          "actualWorkers": 1
         },
         "id": "firefox",
         "name": "firefox",
@@ -63,24 +65,19 @@
   },
   "suites": [
     {
-      "title": "login.spec.js",
-      "file": "login.spec.js",
+      "title": "product.spec.js",
+      "file": "product.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Input fields should display as the data that was filled",
+          "title": "Adding all available products to the cart and then removing them, verifying that the cart updates correctly",
           "ok": true,
           "tags": [],
           "tests": [
             {
               "timeout": 30000,
-              "annotations": [
-                {
-                  "type": "testId",
-                  "description": "TC-1"
-                }
-              ],
+              "annotations": [],
               "expectedStatus": "passed",
               "projectId": "firefox",
               "projectName": "firefox",
@@ -89,257 +86,42 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2450,
+                  "duration": 2104,
                   "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-06-10T19:51:04.585Z",
-                  "annotations": [
+                  "stdout": [
                     {
-                      "type": "testId",
-                      "description": "TC-1"
+                      "text": "Current URL: https://www.saucedemo.com/inventory.html\n"
+                    },
+                    {
+                      "text": "Expected URL: https://www.saucedemo.com/inventory.html\n"
+                    },
+                    {
+                      "text": "Starting test: Adding and removing products from the cart\n"
                     }
                   ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-11T15:09:51.061Z",
+                  "annotations": [],
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "badc1754af1944f68b2b-c3d029a0c07fb7829907",
-          "file": "login.spec.js",
-          "line": 10,
-          "column": 5
-        },
-        {
-          "title": "Should show an error message if log in without a username",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [
-                {
-                  "type": "testId",
-                  "description": "TC-2"
-                }
-              ],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
-                  "status": "passed",
-                  "duration": 2892,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-06-10T19:51:04.601Z",
-                  "annotations": [
-                    {
-                      "type": "testId",
-                      "description": "TC-2"
-                    }
-                  ],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "badc1754af1944f68b2b-aa2b7b27154143a3cffe",
-          "file": "login.spec.js",
-          "line": 26,
-          "column": 5
-        },
-        {
-          "title": "Should show an error message if log in without a password",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [
-                {
-                  "type": "testId",
-                  "description": "TC-3"
-                }
-              ],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 2,
-                  "parallelIndex": 2,
-                  "status": "passed",
-                  "duration": 2783,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-06-10T19:51:04.616Z",
-                  "annotations": [
-                    {
-                      "type": "testId",
-                      "description": "TC-3"
-                    }
-                  ],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "badc1754af1944f68b2b-3074d319ba8e102425bd",
-          "file": "login.spec.js",
-          "line": 44,
-          "column": 5
-        },
-        {
-          "title": "Should show an error message if log in with both fields blank",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [
-                {
-                  "type": "testId",
-                  "description": "TC-4"
-                }
-              ],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 3,
-                  "parallelIndex": 3,
-                  "status": "passed",
-                  "duration": 2820,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-06-10T19:51:04.586Z",
-                  "annotations": [
-                    {
-                      "type": "testId",
-                      "description": "TC-4"
-                    }
-                  ],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "badc1754af1944f68b2b-115f964a3230c4f6d725",
-          "file": "login.spec.js",
-          "line": 61,
-          "column": 5
-        },
-        {
-          "title": "Should logged in successfully with valid credentials",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [
-                {
-                  "type": "testId",
-                  "description": "TC-5"
-                }
-              ],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 4,
-                  "parallelIndex": 4,
-                  "status": "passed",
-                  "duration": 7930,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-06-10T19:51:04.637Z",
-                  "annotations": [
-                    {
-                      "type": "testId",
-                      "description": "TC-5"
-                    }
-                  ],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "badc1754af1944f68b2b-090ab25994a0dd13b3fb",
-          "file": "login.spec.js",
-          "line": 76,
-          "column": 5
-        },
-        {
-          "title": "Should logged in fails with an error message when using invalid credentials",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [
-                {
-                  "type": "testId",
-                  "description": "TC-6"
-                }
-              ],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 5,
-                  "parallelIndex": 5,
-                  "status": "passed",
-                  "duration": 2558,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-06-10T19:51:04.659Z",
-                  "annotations": [
-                    {
-                      "type": "testId",
-                      "description": "TC-6"
-                    }
-                  ],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "badc1754af1944f68b2b-c19801f0d6106a4c1445",
-          "file": "login.spec.js",
-          "line": 93,
-          "column": 5
+          "id": "acdf0ae4f62a43156007-a2e328551b63d0d8c9c6",
+          "file": "product.spec.js",
+          "line": 9,
+          "column": 6
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-06-10T19:51:03.514Z",
-    "duration": 10762.515000000001,
-    "expected": 6,
+    "startTime": "2025-06-11T15:09:49.547Z",
+    "duration": 9533.206,
+    "expected": 1,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

@@ -26,12 +26,13 @@ export default defineConfig({
   
   // export file that have a status each test 
   reporter: [
-    ['html'],
+    ['html', {open: 'never'}], // Generate HTML report, but do not open it automatically
     ['list'],
     ['json', { 
         outputFile: 'test-results.json',
         includeAnnotations: true
-    }]
+    }],
+
 ],
  
 
@@ -42,7 +43,7 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
-    headless: false, // Run tests in headless mode
+    // headless: false, // Run tests in headless mode
   },
 
   /* Configure projects for major browsers */

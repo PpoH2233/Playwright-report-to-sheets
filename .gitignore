@@ -1,5 +1,6 @@
 # Credentials and environment variables
 credentials.json
+test-results.json
 .env
 config.json
 secret.json
