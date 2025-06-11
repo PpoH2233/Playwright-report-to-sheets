@@ -86,22 +86,19 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2104,
+                  "duration": 2604,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "Current URL: https://www.saucedemo.com/inventory.html\n"
+                      "text": "All buttons have the text \"Remove\"\n"
                     },
                     {
-                      "text": "Expected URL: https://www.saucedemo.com/inventory.html\n"
-                    },
-                    {
-                      "text": "Starting test: Adding and removing products from the cart\n"
+                      "text": "All buttons have the text \"Add to cart\"\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-06-11T15:09:51.061Z",
+                  "startTime": "2025-06-11T16:36:50.706Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -111,7 +108,7 @@
           ],
           "id": "acdf0ae4f62a43156007-a2e328551b63d0d8c9c6",
           "file": "product.spec.js",
-          "line": 9,
+          "line": 8,
           "column": 6
         }
       ]
@@ -119,8 +116,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-06-11T15:09:49.547Z",
-    "duration": 9533.206,
+    "startTime": "2025-06-11T16:36:49.140Z",
+    "duration": 5765.922,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
