@@ -1,20 +1,50 @@
 {
     "TC-1": {
+        "group": "Login Page",
         "cell": "I9"
     },
     "TC-2": {
+        "group": "Login Page",
         "cell": "I10"
     },
     "TC-3": {
+        "group": "Login Page",
         "cell": "I11"
     },
     "TC-4": {
+        "group": "Login Page",
         "cell": "I12"
     },
     "TC-5": {
+        "group": "Login Page",
         "cell": "I13"
     },
     "TC-6": {
+        "group": "Login Page",
         "cell": "I14"
+    },
+    "TC-7": {
+        "group": "Product Page",
+        "cell": "I17"
+    },
+    "TC-8": {
+        "group": "Product Page",
+        "cell": "I18"
+    },
+    "TC-9": {
+        "group": "Product Page",
+        "cell": "I19"
+    },
+    "TC-10": {
+        "group": "Product Page",
+        "cell": "I20"
+    },
+    "TC-11": {
+        "group": "Product Page",
+        "cell": "I21"
+    },
+    "TC-12": {
+        "group": "Product Page",
+        "cell": "I22"
     }
 }

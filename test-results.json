@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 1
+      "actualWorkers": 6
     },
     "preserveOutput": "always",
     "reporter": [
@@ -44,7 +44,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 1
+          "actualWorkers": 6
         },
         "id": "firefox",
         "name": "firefox",
@@ -65,6 +65,278 @@
   },
   "suites": [
     {
+      "title": "login.spec.js",
+      "file": "login.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Input fields should display as the data that was filled",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "testId",
+                  "description": "TC-1"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3098,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-21T14:22:53.513Z",
+                  "annotations": [
+                    {
+                      "type": "testId",
+                      "description": "TC-1"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "badc1754af1944f68b2b-c3d029a0c07fb7829907",
+          "file": "login.spec.js",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "Should show an error message if log in without a username",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "testId",
+                  "description": "TC-2"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3253,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-21T14:22:53.530Z",
+                  "annotations": [
+                    {
+                      "type": "testId",
+                      "description": "TC-2"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "badc1754af1944f68b2b-aa2b7b27154143a3cffe",
+          "file": "login.spec.js",
+          "line": 26,
+          "column": 5
+        },
+        {
+          "title": "Should show an error message if log in without a password",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "testId",
+                  "description": "TC-3"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 3312,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-21T14:22:53.515Z",
+                  "annotations": [
+                    {
+                      "type": "testId",
+                      "description": "TC-3"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "badc1754af1944f68b2b-3074d319ba8e102425bd",
+          "file": "login.spec.js",
+          "line": 44,
+          "column": 5
+        },
+        {
+          "title": "Should show an error message if log in with both fields blank",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "testId",
+                  "description": "TC-4"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 3609,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-21T14:22:53.596Z",
+                  "annotations": [
+                    {
+                      "type": "testId",
+                      "description": "TC-4"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "badc1754af1944f68b2b-115f964a3230c4f6d725",
+          "file": "login.spec.js",
+          "line": 61,
+          "column": 5
+        },
+        {
+          "title": "Should logged in successfully with valid credentials",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "testId",
+                  "description": "TC-5"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 4,
+                  "status": "passed",
+                  "duration": 9133,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-21T14:22:53.562Z",
+                  "annotations": [
+                    {
+                      "type": "testId",
+                      "description": "TC-5"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "badc1754af1944f68b2b-090ab25994a0dd13b3fb",
+          "file": "login.spec.js",
+          "line": 76,
+          "column": 5
+        },
+        {
+          "title": "Should logged in fails with an error message when using invalid credentials",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "testId",
+                  "description": "TC-6"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 5,
+                  "status": "passed",
+                  "duration": 3643,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-21T14:22:53.574Z",
+                  "annotations": [
+                    {
+                      "type": "testId",
+                      "description": "TC-6"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "badc1754af1944f68b2b-c19801f0d6106a4c1445",
+          "file": "login.spec.js",
+          "line": 93,
+          "column": 5
+        }
+      ]
+    },
+    {
       "title": "product.spec.js",
       "file": "product.spec.js",
       "column": 0,
@@ -77,29 +349,32 @@
           "tests": [
             {
               "timeout": 30000,
-              "annotations": [],
+              "annotations": [
+                {
+                  "type": "testId",
+                  "description": "TC-7"
+                }
+              ],
               "expectedStatus": "passed",
               "projectId": "firefox",
               "projectName": "firefox",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 2604,
+                  "duration": 2087,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "All buttons have the text \"Remove\"\n"
-                    },
-                    {
-                      "text": "All buttons have the text \"Add to cart\"\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-06-11T16:36:50.706Z",
-                  "annotations": [],
+                  "startTime": "2025-06-21T14:22:57.949Z",
+                  "annotations": [
+                    {
+                      "type": "testId",
+                      "description": "TC-7"
+                    }
+                  ],
                   "attachments": []
                 }
               ],
@@ -108,17 +383,237 @@
           ],
           "id": "acdf0ae4f62a43156007-a2e328551b63d0d8c9c6",
           "file": "product.spec.js",
-          "line": 8,
-          "column": 6
+          "line": 9,
+          "column": 5
+        },
+        {
+          "title": "Product should correctly sorts items from A to Z",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "testId",
+                  "description": "TC-8"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1476,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-21T14:22:58.738Z",
+                  "annotations": [
+                    {
+                      "type": "testId",
+                      "description": "TC-8"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "acdf0ae4f62a43156007-82485fe7043dec2a35ed",
+          "file": "product.spec.js",
+          "line": 23,
+          "column": 5
+        },
+        {
+          "title": "Product should correctly sorts items from Z to A",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "testId",
+                  "description": "TC-9"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1739,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-21T14:22:59.549Z",
+                  "annotations": [
+                    {
+                      "type": "testId",
+                      "description": "TC-9"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "acdf0ae4f62a43156007-d2f6385367c29cb87934",
+          "file": "product.spec.js",
+          "line": 35,
+          "column": 5
+        },
+        {
+          "title": "Product should correctly sorts items from low to high",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "testId",
+                  "description": "TC-10"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1673,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-21T14:23:00.061Z",
+                  "annotations": [
+                    {
+                      "type": "testId",
+                      "description": "TC-10"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "acdf0ae4f62a43156007-eda91f1b9a5673455906",
+          "file": "product.spec.js",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "Product should correctly sorts items from high to low",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "testId",
+                  "description": "TC-11"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1748,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-21T14:23:00.233Z",
+                  "annotations": [
+                    {
+                      "type": "testId",
+                      "description": "TC-11"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "acdf0ae4f62a43156007-ec389567a0ec3f65d770",
+          "file": "product.spec.js",
+          "line": 57,
+          "column": 5
+        },
+        {
+          "title": "Should navigate to the cart page when clicking the cart icon",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "testId",
+                  "description": "TC-12"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1248,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-21T14:23:01.303Z",
+                  "annotations": [
+                    {
+                      "type": "testId",
+                      "description": "TC-12"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "acdf0ae4f62a43156007-20d07537a8680df3fdfc",
+          "file": "product.spec.js",
+          "line": 68,
+          "column": 5
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-06-11T16:36:49.140Z",
-    "duration": 5765.922,
-    "expected": 1,
+    "startTime": "2025-06-21T14:22:51.629Z",
+    "duration": 15361.608,
+    "expected": 12,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
